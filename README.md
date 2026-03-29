@@ -94,9 +94,14 @@ This project is created for educational purposes as part of IMY 772. -->
   <img src="section-1_Videos\Presented by Alisha Perumal and Taylor Sergel.png" alt="Hex Calculator TDD Course Banner" width="100%"/>
 </div>
 
+
+
 ---
+<div align="center">
 
 ## Course Overview
+
+</div>
 
 This repository is the companion codebase for the **Hex Calculator TDD Course**, a four-part
 online course that guides you through building a hexadecimal calculator application using
@@ -106,8 +111,11 @@ By the end of this course, you will have built, tested, containerised, and deplo
 functional hex calculator application.
 
 ---
+<div align="center">
 
 ##  Calculator Specification
+
+</div>
 
 The calculator performs basic arithmetic on **hexadecimal numbers** with the following rules:
 
@@ -120,8 +128,11 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
 | No decimal results | Results are always whole numbers (integer division) |
 
 ---
+<div align="center">
 
 ## Course Sections
+
+</div>
 
 | Branch | Section | Description |
 |---|---|---|
@@ -133,8 +144,11 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
 >  Navigate to each branch to see the state of the codebase at the end of that section.
 
 ---
+<div align="center">
 
 ## Course Videos
+
+</div>
 
 <details>
 <summary><strong>Section 1 — Functional Requirements & Repo Setup</strong></summary>
@@ -144,10 +158,10 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
 
 | # | Video | Topics Covered |
 |---|---|---|
-| 1 | [▶ Course Introduction & Project Overview](#) | Calculator spec, TDD explanation, course roadmap | 
-| 2 | [▶ Deriving Functional Requirements](#) | Requirements doc, category groupings, traceability IDs | 
-| 3 | [▶ Setting Up the GitHub Repository](#) | Repo creation, branch strategy, first commit | 
-| 4 | [▶ Introduction to GitHub Actions](#) | CI pipeline setup, ci.yml walkthrough, live push | 
+| 1 | [▶ Course Introduction & Project Overview](./section-1_Videos/IMY_Video_1.mp4) | Calculator spec, TDD explanation, course roadmap | 
+| 2 | [▶ Deriving Functional Requirements](./section-1_Videos/IMY_Video_2.mp4) | Requirements doc, category groupings, traceability IDs | 
+| 3 | [▶ Setting Up the GitHub Repository](./section-1_Videos/IMY_Video_3.mp4) | Repo creation, branch strategy, first commit | 
+| 4 | [▶ Introduction to GitHub Actions](./section-1_Videos/IMY_Video_4.mp4) | CI pipeline setup, ci.yml walkthrough, live push | 
 
 </details>
 
@@ -203,8 +217,11 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
 </details>
 
 ---
+<div align="center">
 
 ## Getting Started
+
+</div>
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) v18+
@@ -223,8 +240,11 @@ git checkout section-1
 ```
 
 ---
+<div align="center">
 
 ##  Git Workflow
+
+</div>
 
 This project follows a **feature-branch workflow**:
 
@@ -243,8 +263,11 @@ main
 ```
 
 ---
+<div align="center">
 
 ##  CI/CD
+
+</div>
 
 This repository uses **GitHub Actions** for automated testing.
 The pipeline runs on every push and pull request to any branch.
@@ -256,7 +279,10 @@ The pipeline runs on every push and pull request to any branch.
 | Section 3+ | GUI tests run automatically |
 
 ---
+<div align="center">
 
 ##  License
+
+</div>
 
 This project is created for educational purposes as part of **IMY 772**.
