@@ -50,7 +50,7 @@ To identify the functional requirements, we started with the calculator's core g
 
 ## Requirements Traceability
 
-| Requirement ID | Test Name (added in Section 2) |
+| Requirement ID | Test Name  |
 |---|---|
 | INP-01 | `test_rejects_non_hex_characters` |
 | INP-02 | `test_rejects_input_over_two_digits` |
