@@ -1,0 +1,24 @@
+{
+  "name": "online_calculator",
+  "version": "1.0.0",
+  "description": "<!-- # Hex Calculator — TDD Online Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaylorSergel/Online_Calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/TaylorSergel/Online_Calculator/issues"
+  },
+  "homepage": "https://github.com/TaylorSergel/Online_Calculator#readme",
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
