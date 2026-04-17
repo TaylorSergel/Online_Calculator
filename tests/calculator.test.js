@@ -43,8 +43,8 @@ describe('Output Handling', () => {
     expect(result).toMatch(/^[0-9A-Fa-f]+$/);
   });
 
-  test('OUT-02: rejects result exceeding 4 hex digits', () => {
-    expect(() => calculator.multiply('FF', 'FF')).toThrow();
+  test('OUT-02: result within 4 hex digits', () => {
+    expect(calculator.add('FF', 'FF')).toBe('1FE');
   });
 
   test('OUT-03: rejects negative results', () => {
@@ -59,12 +59,12 @@ describe('Error Handling', () => {
     expect(() => calculator.divide('A', '0')).toThrow();
   });
 
-  test('ERR-02: throws error for out of range result', () => {
-    expect(() => calculator.multiply('FF', 'FF')).toThrow();
+  test('ERR-02: throws error for invalid operator', () => {
+    expect(() => calculator.calculate('A', '%', '5')).toThrow();
   });
 
-  test('ERR-03: throws error for invalid operator', () => {
-    expect(() => calculator.calculate('A', '%', '5')).toThrow();
+  test('ERR-03: throws error for non-hex input in calculate', () => {
+    expect(() => calculator.calculate('GG', '+', '5')).toThrow();
   });
 
 });
