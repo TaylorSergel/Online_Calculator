@@ -68,3 +68,27 @@ describe('Error Handling', () => {
   });
 
 });
+
+describe('Edge Cases', () => {
+
+  test('adding zero returns the same number', () => {
+    expect(calculator.add('A', '0')).toBe('A');
+  });
+
+  test('multiplying by zero returns zero', () => {
+    expect(calculator.multiply('F', '0')).toBe('0');
+  });
+
+  test('dividing a number by itself returns 1', () => {
+    expect(calculator.divide('F', 'F')).toBe('1');
+  });
+
+  test('lowercase hex input is accepted', () => {
+    expect(() => calculator.validateInput('ff')).not.toThrow();
+  });
+
+  test('single digit hex input is accepted', () => {
+    expect(() => calculator.validateInput('A')).not.toThrow();
+  });
+
+});
