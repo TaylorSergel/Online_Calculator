@@ -175,10 +175,10 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
  
 | # | Video | Topics Covered | 
 |---|---|---|
-| 1 | [▶ Setting up Jest and Project Structure](#) | Setting up Jest testing library and initial project structure setup  | 
-| 2 | [▶ Writing initial tests](#) | Writing initial unit tests for calculator  | 
-| 3 | [▶ Writing calculator Logic](#) | Drafting initial calculator logic |
-| 4 | [▶ GitHub Actions and Improving Tests](#) | Improving tests and adding to github actions | 
+| 1 | [▶ Setting up Jest and Project Structure](section-2_Videos/S2V1_Setting%up%jest%and%project%structure.mp4) | Setting up Jest testing library and initial project structure setup  | 
+| 2 | [▶ Writing initial tests](section-2_Videos/IMY_Video_2.mp4) | Writing initial unit tests for calculator  | 
+| 3 | [▶ Writing calculator Logic](section-2_Videos/S2V3-Writing%Calc%Logic.mp4) | Drafting initial calculator logic |
+| 4 | [▶ GitHub Actions and Improving Tests](section-2_Videos/IMY_Video_4.mp4) | Improving tests and adding to github actions | 
 
 </details>
 
