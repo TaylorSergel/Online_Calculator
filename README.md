@@ -172,13 +172,13 @@ The calculator performs basic arithmetic on **hexadecimal numbers** with the fol
 <br/>
 
 >  Branch: `section-2`
-<!-- 
+ 
 | # | Video | Topics Covered | 
 |---|---|---|
-| 1 | [▶ Video Title Placeholder](#) | Setting up the testing library | 
-| 2 | [▶ Video Title Placeholder](#) | Writing initial unit tests | 
-| 3 | [▶ Video Title Placeholder](#) | Drafting calculator logic to pass tests |
-| 4 | [▶ Video Title Placeholder](#) | Amending tests and improving functions | -->
+| 1 | [▶ Setting up Jest and Project Structure](#) | Setting up Jest testing library and initial project structure setup  | 
+| 2 | [▶ Writing initial tests](#) | Writing initial unit tests for calculator  | 
+| 3 | [▶ Writing calculator Logic](#) | Drafting initial calculator logic |
+| 4 | [▶ GitHub Actions and Improving Tests](#) | Improving tests and adding to github actions | 
 
 </details>
 
