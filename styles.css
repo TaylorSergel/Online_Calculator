@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&family=Fredoka+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F5EFE6;
+  font-family: 'Nunito', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  top: -80px;
+  left: -60px;
+  width: 300px;
+  height: 300px;
+  background-color: #7ECEC4;
+  border-radius: 60% 40% 70% 30% / 50% 60% 40% 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+body::after {
+  content: '';
+  position: fixed;
+  bottom: -80px;
+  right: -60px;
+  width: 320px;
+  height: 320px;
+  background-color: #C8956C;
+  border-radius: 40% 60% 30% 70% / 60% 40% 50% 50%;
+  z-index: 0;
+  opacity: 0.7;
+}
+
+.calculator {
+  background-color: #FDFAF5;
+  border-radius: 24px;
+  padding: 24px;
+  width: 360px;
+  box-shadow: 6px 6px 0px #3D2314;
+  border: 2.5px solid #3D2314;
+  position: relative;
+  z-index: 1;
+}
+
+.calculator__title {
+  color: #E8435A;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.4rem;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.calculator__display {
+  background-color: #EEF7F5;
+  border-radius: 14px;
+  padding: 16px;
+  margin-bottom: 16px;
+  min-height: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+  border: 2px solid #3D2314;
+}
+
+.calculator__expression {
+  color: #9B7B6A;
+  font-size: 0.85rem;
+  min-height: 20px;
+  margin-bottom: 4px;
+  font-weight: 700;
+}
+
+.calculator__result {
+  color: #3D2314;
+  font-size: 2rem;
+  font-weight: 800;
+  word-break: break-all;
+  font-family: 'Fredoka One', cursive;
+}
+
+.calculator__buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.btn {
+  border: 2px solid #3D2314;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  font-weight: 800;
+  font-family: 'Nunito', sans-serif;
+  padding: 16px 8px;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  box-shadow: 3px 3px 0px #3D2314;
+}
+
+.btn:active {
+  transform: translate(3px, 3px);
+  box-shadow: none;
+}
+
+.btn--span2 {
+  grid-column: span 2;
+}
+
+.btn--number {
+  background-color: #FDFAF5;
+  color: #3D2314;
+}
+
+.btn--number:hover {
+  background-color: #F5EFE6;
+}
+
+.btn--hex {
+  background-color: #FDFAF5;
+  color: #E8435A;
+}
+
+.btn--hex:hover {
+  background-color: #FDE8EC;
+}
+
+.btn--operator {
+  background-color: #7ECEC4;
+  color: #3D2314;
+}
+
+.btn--operator:hover {
+  background-color: #5BBFB4;
+}
+
+.btn--action {
+  background-color: #C8956C;
+  color: #FDFAF5;
+}
+
+.btn--action:hover {
+  background-color: #B8855C;
+}
+
+.btn--equals {
+  background-color: #E8435A;
+  color: #FDFAF5;
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.3rem;
+}
+
+.btn--equals:hover {
+  background-color: #D4334A;
+}
