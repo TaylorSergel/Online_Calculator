@@ -24,4 +24,17 @@ jobs:
       - name: Run Jest tests
         run: npm test
 
+      - name: Install Playwright browser
+        run: npx playwright install chromium
+
+      - name: Start local server
+        run: npx serve . --listen 3000 &
+
+      - name: Wait for server to be ready
+        run: npx wait-on http://localhost:3000
+
+      - name: Run Playwright GUI tests
+        run: npx playwright test
+
+
         

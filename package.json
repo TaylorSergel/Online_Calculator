@@ -4,8 +4,14 @@
   "description": "<!-- # Hex Calculator — TDD Online Course",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
-  },
+  "test": "jest"
+},
+"jest": {
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/tests/GUI/"
+  ]
+},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TaylorSergel/Online_Calculator.git"
@@ -20,6 +26,7 @@
   "homepage": "https://github.com/TaylorSergel/Online_Calculator#readme",
   "devDependencies": {
     "@playwright/test": "^1.59.1",
-    "jest": "^30.3.0"
+    "jest": "^30.3.0",
+    "wait-on": "^9.0.6"
   }
 }
