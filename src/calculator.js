@@ -11,7 +11,7 @@ function validateInput(value) {
 
 function validateOutput(value) {
     if (value < 0) throw new Error('Result is negative');
-    if (value > 0xFFF) throw new Error('Result exceeds valid output range');
+    if (value > 0xFFFF) throw new Error('Result exceeds valid output range');
     return toHex(value);
 }
 
@@ -64,4 +64,4 @@ function calculate(a, operator, b) {
 }
 
 //EXPORTS
-module.exports = {validateInput, validateOutput, add, subtract, multiply, divide};
+module.exports = {validateInput, validateOutput, add, subtract, multiply, divide, calculate};
