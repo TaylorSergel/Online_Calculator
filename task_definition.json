@@ -1,0 +1,21 @@
+{
+  "family": "hex-calculator-task",
+  "networkMode": "awsvpc",
+  "requiresCompatibilities": ["FARGATE"],
+  "cpu": "256",
+  "memory": "512",
+  "executionRoleArn": "arn:aws:iam::866481182574:role/ecsTaskExecutionRole",
+  "containerDefinitions": [
+    {
+      "name": "hex-calculator",
+      "image": "866481182574.dkr.ecr.us-east-1.amazonaws.com/hex-calculator:latest",
+      "portMappings": [
+        {
+          "containerPort": 80,
+          "protocol": "tcp"
+        }
+      ],
+      "essential": true
+    }
+  ]
+}
